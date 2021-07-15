@@ -1,0 +1,130 @@
+html {
+}
+
+.jumbotron-fluid{
+    margin: 0;
+    color: black;
+    background-color: red;
+}
+
+
+/* first image on home page*/
+
+article > #welcome-container {
+    display: flex;
+}
+#welcome-container {
+    display: block;
+    background-image: url('../images/kidfliptrick.jpg');
+    background-size: cover;
+    background-color: peru;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding-top: 20px;
+   
+}
+
+#first-section {
+    display: flex;
+    background-color: lightgray;
+    /*box-sizing: border-box;    */
+    font-size: 2rem;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#first-section > p, #first-section > a {
+    background-color: lightgray;
+}
+
+.meetups-container {
+        display: block;
+}
+
+.meetups-container li {
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+}
+#weekly-meetups {
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    font-family: ;
+    font-size:1.8rem;
+    line-height: 0;
+    padding: 20px
+}
+
+.skate-history p {
+    display: block;
+    font-size: 2rem;
+    text-align: left;
+    background-color: lightgray;
+}
+
+/*article  {
+    display: block;
+    /*font-size: 1.8rem;
+    list-style-type: disc;
+    /*font-family: sans;*/
+}*/
+
+/*article li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}*/
+
+/*ul {*/
+    display: block;
+    
+
+}
+
+.shop-locations li{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+
+
+.videos {
+    display: block;
+    width: 56%;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.videos iframe {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#shops {
+    text-align: center;
+}
+.portland-shops {
+    display: flex;
+    margin-left: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.portland-shops img {
+    display: inline-flex;
+    float: left;
+    flex: 0 100% 100%;
+    align-items: space-around;
