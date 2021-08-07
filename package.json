@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hughesmarissa/BikeClub.git"
+    "url": "git+https://github.com/hughesmarissa/SkateSite.git"
   },
   "author": "Marissa Hughes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hughesmarissa/BikeClub/issues"
+    "url": "https://github.com/hughesmarissa/SkateSite/issues"
   },
-  "homepage": "https://github.com/hughesmarissa/BikeClub#readme",
+  "homepage": "https://github.com/hughesmarissa/SkateSite#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
   },
